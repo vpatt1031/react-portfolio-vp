@@ -10,11 +10,11 @@ const Header = () => {
           <Fade bottom>
             <h2>
               Hi, I'm {data.name}{" "}
-              <span role="img" aria-label="Emoji">
-                👋
-              </span>
             </h2>
           </Fade>
+          <span role="img" aria-label="Emoji">
+                <img src={require("../images/headshot_popart.jpg")}></img>
+              </span>
           <Fade bottom cascade>
             <div className="heading-wrapper">
               <h1>
