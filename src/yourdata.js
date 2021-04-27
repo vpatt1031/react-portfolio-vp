@@ -32,7 +32,7 @@ export default {
   ],
   //   Header Paragraph
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    "Passionate about combining the art of design with the art of programming.",
 
   //Contact Email
   contactEmail: "vpatt1031@gmail.com",

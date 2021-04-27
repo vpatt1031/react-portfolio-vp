@@ -26,9 +26,13 @@ const Footer = () => {
               </a>
             ))}
           </div>
+          <img
+            style={{ width: "25%", maxHeight: "200px" }}
+            src={require("../images/logo3.png")}
+            alt="vp logo"
+          />
           <span>
             Made With <icon>❤</icon> by{"Vanessa Patterson"}
-            <a href="https://vpatt1031.github.io/portfolio2/assets/vanessa_patterson_resume.pdf">Resume</a>
           </span>
         </div>
       </div>

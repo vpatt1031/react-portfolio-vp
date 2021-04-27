@@ -14,7 +14,6 @@ const Navbar = () => {
             className="name"
             tabIndex={0}
           >
-            {/* <img className="logo" src={require("../images/logo3.png")}></img> */}
           </div>
           <div className="links-wrapper">
             <button onClick={() => scrollTo("#work")}>Work</button>

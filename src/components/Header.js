@@ -12,8 +12,8 @@ const Header = () => {
               Hi, I'm {data.name}{" "}
             </h2>
           </Fade>
-          <span role="img" aria-label="Emoji">
-                <img src={require("../images/headshot_popart.jpg")}></img>
+          <span role="img" >
+                <img src={require("../images/headshot_popart.jpg")} alt="headshot vanessa patterson"></img>
               </span>
           <Fade bottom cascade>
             <div className="heading-wrapper">
@@ -47,6 +47,11 @@ const Header = () => {
               className="primary-btn"
             >
               CONNECT WITH ME
+            </a>
+            <a href={"https://vpatt1031.github.io/portfolio2/assets/vanessa_patterson_resume.pdf"}
+              className="primary-btn"
+            >
+              VIEW MY RESUME
             </a>
           </Fade>
         </div>
