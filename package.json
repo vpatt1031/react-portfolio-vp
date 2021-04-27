@@ -37,15 +37,15 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
+    "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "react-scripts start",
+    "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
-  "homepage": "https://vpatt1031.github.io/react-portfolio-vp",
+  "homepage": "https://vpatt1031.github.io/react-portfolio-vp/",
   "repository": {
     "type": "git",
     "url": "https://github.com/vpatt1031/react-portfolio-vp.git"
