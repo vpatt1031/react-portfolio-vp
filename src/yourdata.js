@@ -10,12 +10,14 @@ import burger_app from "./images/buger_app.png"
 import aboutme from "./images/aboutme.jpeg"
 import pwa from "./images/pwa.png"
 import project1 from "./images/project1_giphy.gif"
+import fitness_tracker from "./images/fitness_tracker.png"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
 import codepenIcon from "./images/codepen.svg"
 import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
+import linkedinIcon from "./images/linkedin.png"
 
 
 export default {
@@ -84,21 +86,20 @@ export default {
         "This is an online application using multiple APIs that finds upcoming holidays, and then displays movies related to that holiday when clicked on. The user can also save movies to local storage.", 
       //Project Image 
       imageSrc: project1,
-      //Project URL - Add Your Project Url Here
+      //Project URL
       url: "https://vpatt1031.github.io/movie_roullette/",
     },
     {
-      title: "Project Five", //Project Title - Add Your Project Title Here
+      title: "Mongo Fitness Tracker", //Project Title
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      //Project Image 
+      imageSrc: fitness_tracker,
+      //Project URL 
+      url: "https://afternoon-river-21848.herokuapp.com/?id=60652c20cd48880015f1cc6e",
     },
     {
-      title: "Project Six", //Project Title - Add Your Project Title Here
+      title: "Express Note Taker", //Project Title
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
@@ -180,14 +181,15 @@ export default {
   contactSubHeading: "Let's create your next experience together",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/chetanverma16" },
+    { img: githubIcon, url: "https://github.com/vpatt031" },
+    { img: linkedinIcon, url: "https://www.linkedin.com/in/vanessa-saucedo-patterson" },
     {
       img: codepenIcon,
-      url: "https://www.codepen.com/",
+      url: "https://codepen.io/vpatt1031",
     },
     {
       img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
+      url: "https://dribbble.com/vpatt1031",
     },
     {
       img: instagramIcon,
