@@ -109,15 +109,6 @@ export default {
       url: "https://guarded-retreat-31579.herokuapp.com/",
     },
 
-    /*
-    If You Want To Add More Project just Copy and Paste This At The End
-    ,{
-        title: 'Project Five',
-        para: 'Something Amazing',
-        imageSrc: "",
-        url: ''
-    }
-    */
   ],
 
   // End Work Section -----------------------
@@ -169,7 +160,7 @@ export default {
     {
       img: codeIcon,
       para:
-        "Visual Studio, CodePen",
+        "Visual Studio Code, CodePen",
     },
   ],
 
@@ -178,9 +169,10 @@ export default {
   
   //   Contact Section --------------
 
-  contactSubHeading: "Let's create your next experience together",
+  contactSubHeading: "Let's create something soon!",
+    
   social: [
-    // Add Or Remove The Link Accordingly
+    
     { img: githubIcon, url: "https://github.com/vpatt031" },
     { img: linkedinIcon, url: "https://www.linkedin.com/in/vanessa-saucedo-patterson" },
     {
@@ -200,4 +192,4 @@ export default {
   // End Contact Section ---------------
 }
 
-// Thanks for using this template, I would love to hear from you contact me at hello@chetanverma.com
+
