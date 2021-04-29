@@ -11,6 +11,7 @@ import aboutme from "./images/aboutme.jpeg"
 import pwa from "./images/pwa.png"
 import project1 from "./images/project1_giphy.gif"
 import fitness_tracker from "./images/fitness_tracker.png"
+import expess_note_taker from "./images/express_note.png"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
@@ -92,7 +93,7 @@ export default {
     {
       title: "Mongo Fitness Tracker", //Project Title
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "This application was designed to track user workouts using Node, Express, and MongoDB. The user is able to log multiple exercises in a workout on a given day.",
       //Project Image 
       imageSrc: fitness_tracker,
       //Project URL 
@@ -101,12 +102,11 @@ export default {
     {
       title: "Express Note Taker", //Project Title
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+        "Your assignment is to modify starter code to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.", // Add Your Service Type Here
+      //Project Image 
+      imageSrc: expess_note_taker,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://guarded-retreat-31579.herokuapp.com/",
     },
 
     /*
@@ -144,32 +144,32 @@ export default {
     {
       img: htmlIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "HTML5",
     },
     {
       img: cssIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "CSS: Bulma, Sass, Bootstrap",
     },
     {
       img: jsIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Javascript ES6, jQuery",
     },
     {
       img: reactIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "React, Node, Express, MongoDB, MySQL",
     },
     {
       img: designIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Adobe Creative Suite: InDesign, Photoshop, Illustrator, Spark",
     },
     {
       img: codeIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Visual Studio, CodePen",
     },
   ],
 
